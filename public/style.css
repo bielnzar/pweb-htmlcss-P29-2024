@@ -1,0 +1,241 @@
+/* Mengatur gaya dasar untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8FFCE; /* Warna latar belakang */
+    margin-top: 80px; /* Sesuaikan dengan tinggi navbar */
+}
+
+/* Gaya untuk Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Menempatkan logo di kiri dan link di kanan */
+    align-items: center;
+    background: #A7C7E7; /* Ubah background menjadi biru muda */
+    padding: 10px 50px;
+    border-radius: 20px; /* Membuat sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    position: fixed; /* Buat navbar tetap di atas saat di-scroll */
+    width: calc(100% - 100px); /* Kurangi lebar navbar agar tidak mentok */
+    max-width: 1200px; /* Batas maksimal lebar navbar */
+    top: 20px; /* Tempatkan navbar sedikit di bawah bagian atas */
+    left: 50%; /* Tempatkan navbar di tengah */
+    transform: translateX(-50%); /* Pusatkan navbar */
+    z-index: 1000; /* Pastikan navbar berada di atas elemen lainnya */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #002147; /* Warna teks logo */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #002147; /* Warna teks tombol */
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    color: #FFCC00; /* Warna hover pada tombol */
+}
+
+/* Gaya untuk Landing Page */
+#landing {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002147; /* Warna teks */
+    text-align: center;
+    margin-top: -80px; /* Menghilangkan margin-top untuk menutupi bagian atas */
+    overflow: hidden; /* Pastikan elemen pseudo tidak meluap */
+}
+
+#landing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/backgr.webp') no-repeat center center/cover; /* Ganti dengan URL gambar Anda */
+    filter: blur(5px); /* Efek blur */
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Warna overlay gelap dengan transparansi */
+    z-index: 2;
+}
+
+.landing-content {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-image {
+    max-width: 50%; /* Atur ukuran maksimum gambar */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.landing-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #fff; /* Warna teks putih */
+}
+
+.cta-button {
+    background-color: #FFCC00;
+    color: #002147;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #002147;
+    color: #FFCC00;
+}
+
+/* Gaya untuk About Section */
+#about {
+    padding: 50px;
+    text-align: center;
+    background-color: #E6E6FA; /* Warna latar belakang */
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Gaya untuk Services Section */
+#services {
+    padding: 50px;
+    background-color: #E8FFCE; /* Warna latar belakang */
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#services p {
+    font-size: 1.2rem;
+}
+
+/* Gaya untuk Gallery Section */
+#gallery {
+    padding: 50px;
+    background-color: #E6E6FA; /* Warna latar belakang */
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Gaya untuk Testimonials Section */
+#testimonials {
+    padding: 50px;
+    background-color: #E8FFCE; /* Warna latar belakang */
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Gaya untuk Call to Action Section */
+#contact {
+    padding: 50px;
+    background-color: #E6E6FA; /* Warna latar belakang */
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #A7C7E7;
+    color: rgb(43, 1, 66);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
