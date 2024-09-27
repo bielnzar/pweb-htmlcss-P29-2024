@@ -1,328 +1,316 @@
 .testimonies {
-  	position: absolute;
-  	top: 1763px;
-  	left: calc(50% - 172px);
-  	line-height: 120%;
+	position: absolute;
+	top: 1763px;
+	left: calc(50% - 172px);
+	line-height: 120%;
 }
 .cream-gallery {
-  	position: absolute;
-  	top: 145px;
-  	left: calc(50% - 234px);
-  	letter-spacing: 0.1em;
-  	line-height: 120%;
+	position: absolute;
+	top: 145px;
+	left: calc(50% - 234px);
+	letter-spacing: 0.1em;
+	line-height: 120%;
 }
 .frame-child {
-  	position: absolute;
-  	top: 320px;
-  	left: 240px;
-  	width: 300px;
-  	height: 300px;
-  	overflow: hidden;
-  	object-fit: cover;
+	position: absolute;
+	top: 320px;
+	left: 90px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .frame-item {
-  	position: absolute;
-  	top: 320px;
-  	left: 560px;
-  	width: 300px;
-  	height: 300px;
-  	overflow: hidden;
-  	object-fit: cover;
+	position: absolute;
+	top: 320px;
+	left: 410px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .frame-inner {
-  	position: absolute;
-  	top: 320px;
-  	left: 880px;
-  	width: 300px;
-  	height: 300px;
-  	overflow: hidden;
-  	object-fit: cover;
+	position: absolute;
+	top: 320px;
+	left: 730px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .frame-icon {
-  	position: absolute;
-  	top: 320px;
-  	left: 1200px;
-  	width: 300px;
-  	height: 300px;
-  	overflow: hidden;
-  	object-fit: cover;
+	position: absolute;
+	top: 320px;
+	left: 1050px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .frame-child1 {
-  	position: absolute;
-  	top: 640px;
-  	left: 240px;
-  	width: 300px;
-  	height: 300px;
-  	overflow: hidden;
-  	object-fit: cover;
+	position: absolute;
+	top: 640px;
+	left: 90px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .frame-child2 {
-  	position: absolute;
-  	top: 640px;
-  	left: 560px;
-  	width: 300px;
-  	height: 300px;
-  	overflow: hidden;
-  	object-fit: cover;
+	position: absolute;
+	top: 640px;
+	left: 410px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .frame-child3 {
-  	position: absolute;
-  	top: 1280px;
-  	left: 880px;
-  	width: 300px;
-  	height: 300px;
-  	overflow: hidden;
-  	object-fit: cover;
+	position: absolute;
+	top: 1280px;
+	left: 730px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .frame-child4 {
-  	position: absolute;
-  	top: 1280px;
-  	left: 1200px;
-  	width: 300px;
-  	height: 300px;
-  	overflow: hidden;
-  	object-fit: cover;
-}
-.frame-child5 {
-  position: absolute;
-  top: 960px;
-  left: 240px;
-  width: 620px;
-  height: 620px;
-  overflow: hidden;
-  object-fit: cover;
-}
-.frame-child6 {
-  position: absolute;
-  top: 640px;
-  left: 880px;
-  width: 620px;
-  height: 620px;
-  overflow: hidden;
-  object-fit: cover;
+	position: absolute;
+	top: 1280px;
+	left: 1050px;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .rectangle-div {
-  	position: absolute;
-  	bottom: 0px;
-  	left: calc(50% - 720px);
-  	background-color: var(--color-lightgoldenrodyellow);
-  	width: 1440px;
-  	height: 210px;
+	position: absolute;
+	bottom: 0px;
+	background-color: var(--color-lightgoldenrodyellow);
+	width: 100%;
+	height: 210px;
 }
 .group-child {
-  	position: absolute;
-  	top: 0px;
-  	left: calc(50% - 650px);
-  	border-radius: var(--br-51xl);
-  	background-color: var(--color-midnightblue);
-  	width: 1300px;
-  	height: 250px;
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 650px);
+	border-radius: var(--br-51xl);
+	background-color: var(--color-midnightblue);
+	width: 1300px;
+	height: 250px;
 }
 .group-item {
-  	position: absolute;
-  	top: 50px;
-  	left: calc(50% - 650px);
-  	border-radius: var(--br-51xl);
-  	background-color: var(--color-lightgoldenrodyellow);
-  	width: 1300px;
-  	height: 200px;
+	position: absolute;
+	top: 50px;
+	left: calc(50% - 650px);
+	border-radius: var(--br-51xl);
+	background-color: var(--color-lightgoldenrodyellow);
+	width: 1300px;
+	height: 200px;
 }
 .tried-one-scoop {
-  	position: absolute;
-  	top: 120px;
-  	left: 255px;
-  	line-height: 120%;
-  	font-weight: 500;
-  	color: var(--color-black);
-  	display: flex;
-  	align-items: center;
-  	width: 972px;
+	position: absolute;
+	top: 120px;
+	left: 255px;
+	line-height: 120%;
+	font-weight: 500;
+	color: var(--color-black);
+	display: flex;
+	align-items: center;
+	width: 972px;
 }
 .image-icon {
-  	position: absolute;
-  	top: 75px;
-  	left: 68px;
-  	border-radius: var(--br-131xl);
-  	width: 150px;
-  	height: 150px;
-  	object-fit: cover;
+	position: absolute;
+	top: 75px;
+	left: 68px;
+	border-radius: var(--br-131xl);
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
 }
 .the-cone {
-  	position: absolute;
-  	top: 15px;
-  	left: 68px;
-  	line-height: 120%;
-  	display: flex;
-  	align-items: center;
-  	width: 175px;
+	position: absolute;
+	top: 15px;
+	left: 68px;
+	line-height: 120%;
+	display: flex;
+	align-items: center;
+	width: 175px;
 }
 .b {
-  	position: absolute;
-  	top: 15px;
-  	left: 1052px;
-  	letter-spacing: 0.2em;
-  	line-height: 120%;
-  	display: flex;
-  	text-align: right;
-  	align-items: center;
-  	width: 175px;
+	position: absolute;
+	top: 15px;
+	left: 1052px;
+	letter-spacing: 0.2em;
+	line-height: 120%;
+	display: flex;
+	text-align: right;
+	align-items: center;
+	width: 175px;
 }
 .rectangle-parent {
-  	width: 1300px;
-  	position: relative;
-  	height: 250px;
+	width: 1300px;
+	position: relative;
+	height: 250px;
 }
 .i-didnt-choose {
-  	position: absolute;
-  	top: 105px;
-  	left: 255px;
-  	line-height: 120%;
-  	font-weight: 500;
-  	color: var(--color-black);
-  	display: flex;
-  	align-items: center;
-  	width: 972px;
+	position: absolute;
+	top: 105px;
+	left: 255px;
+	line-height: 120%;
+	font-weight: 500;
+	color: var(--color-black);
+	display: flex;
+	align-items: center;
+	width: 972px;
 }
 .group-child2 {
-  	position: absolute;
-  	top: 75px;
-  	left: 68px;
-  	border-radius: var(--br-131xl);
-  	width: 150px;
-  	height: 150px;
-  	overflow: hidden;
-  	object-fit: cover;
+	position: absolute;
+	top: 75px;
+	left: 68px;
+	border-radius: var(--br-131xl);
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	object-fit: cover;
 }
 .enak-bgt-ampe {
-  	position: absolute;
-  	top: 135px;
-  	left: 255px;
-  	line-height: 120%;
-  	font-weight: 500;
-  	color: var(--color-black);
-  	display: flex;
-  	align-items: center;
-  	width: 972px;
+	position: absolute;
+	top: 135px;
+	left: 255px;
+	line-height: 120%;
+	font-weight: 500;
+	color: var(--color-black);
+	display: flex;
+	align-items: center;
+	width: 972px;
 }
 .group-parent {
-  	position: absolute;
-  	top: 1962px;
-  	left: calc(50% - 650px);
-  	width: 1300px;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	gap: var(--gap-31xl);
-  	text-align: left;
-  	font-size: var(--font-size-6xl);
-  	font-family: var(--font-montserrat);
+	position: absolute;
+	top: 1962px;
+	left: calc(50% - 650px);
+	width: 1300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: var(--gap-31xl);
+	text-align: left;
+	font-size: var(--font-size-6xl);
+	font-family: var(--font-montserrat);
 }
-
+.frame-child5 {
+	position: absolute;
+	top: 960px;
+	left: 90px;
+	width: 620px;
+	height: 620px;
+	overflow: hidden;
+	object-fit: cover;
+}
+.frame-child6 {
+	position: absolute;
+	top: 640px;
+	left: 730px;
+	width: 620px;
+	height: 620px;
+	overflow: hidden;
+	object-fit: cover;
+}
 .frame-child7 {
-  	position: absolute;
-  	top: calc(50% - -400px);
-  	left: calc(50% - 635px);
-  	background-color: var(--color-lightgoldenrodyellow);
-  	width: 1270px;
-  	height: 2px;
+	position: absolute;
+	top: calc(50% - 107px);
+	left: calc(50% - 635px);
+	background-color: var(--color-lightgoldenrodyellow);
+	width: 1270px;
+	height: 2px;
 }
-
 .frame-child8 {
-  	position: absolute;
-  	top: calc(50% - -450px);
-  	left: calc(50% - 580px);
-  	background-color: var(--color-lightgoldenrodyellow);
-  	width: 1160px;
-  	height: 1px;
+	position: absolute;
+	top: calc(50% - 67px);
+	left: calc(50% - 580px);
+	background-color: var(--color-lightgoldenrodyellow);
+	width: 1160px;
+	height: 1px;
 }
 .navbar-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	background-color: var(--color-lightgoldenrodyellow);
-  	width: 100%;
-  	height: 70px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: var(--color-lightgoldenrodyellow);
+	width: 100%;
+	height: 70px;
 }
 .home {
-  	position: relative;
-  	line-height: 120%;
+	position: relative;
+	line-height: 120%;
 }
 .gallery {
-  	position: relative;
-  	line-height: 120%;
-  	color: var(--color-darkolivegreen);
+	position: relative;
+	line-height: 120%;
+	color: var(--color-darkolivegreen);
 }
 .home-parent {
-  	position: absolute;
-  	top: 15px;
-  	left: calc(50% - 700px);
-  	width: 1370px;
-  	height: 40px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: flex-end;
-  	gap: var(--gap-31xl);
+	position: absolute;
+	top: 15px;
+	left: calc(50% - 700px);
+	width: 1370px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	gap: var(--gap-31xl);
 }
 .th {
-  	position: relative;
-  	line-height: 100%;
+	position: relative;
+	line-height: 100%;
 }
 .ice-cream {
-  	position: relative;
-  	line-height: 100%;
-  	font-family: var(--font-montserrat);
-  	color: var(--color-midnightblue);
+	position: relative;
+	
+	line-height: 100%;
+	font-family: var(--font-montserrat);
+	color: var(--color-midnightblue);
 }
 .th-group {
-  	position: absolute;
-  	top: 23px;
-  	left: calc(50% - 720px);
-  	width: 300px;
-  	display: flex;
-  	flex-direction: row;
-  	align-items: center;
-  	justify-content: center;
-  	gap: 5px;
-  	font-size: 24.79px;
-  	color: var(--color-darkolivegreen);
-  	font-family: var(--font-cherish);
+	position: absolute;
+	top: 23px;
+	left: calc(50% - 720px);
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	font-size: 24.79px;
+	color: var(--color-darkolivegreen);
+	font-family: var(--font-cherish);
 }
-.navbar{
-  	position: fixed; /* Menggunakan fixed agar tetap di atas saat scroll */
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 70px;
-  	font-size: 22px;
-  	color: var(--color-midnightblue);
-  	font-family: var(--font-montserrat);
-  	z-index: 100; /* Pastikan navbar di atas elemen lain */
+.navbar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 70px;
+	font-size: 22.22px;
+	color: var(--color-midnightblue);
+	font-family: var(--font-montserrat);
 }
 .testimonies-parent {
-  	width: 100%;
-  	position: relative;
-  	background-color: var(--color-darkolivegreen);
-  	height: 3500px;
-  	overflow: hidden;
-  	text-align: center;
-  	font-size: var(--font-size-81xl);
-  	color: var(--color-lightgoldenrodyellow);
-  	font-family: var(--font-cherish);
+	width: 100%;
+	position: relative;
+	background-color: var(--color-darkolivegreen);
+	height: 3500px;
+	overflow: hidden;
+	text-align: center;
+	font-size: var(--font-size-81xl);
+	color: var(--color-lightgoldenrodyellow);
+	font-family: var(--font-cherish);
 }
 
-.ellipse-parent {
-  width: 100%;
-  position: relative;
-  background-color: var(--color-lightgoldenrodyellow);
-  height: 2500px;
-  overflow: hidden;
-  text-align: center;
-  font-size: 30px;
-  color: var(--color-darkolivegreen);
-  font-family: var(--font-montserrat);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.home-parent a:hover {
+    color: var(--color-darkolivegreen);
+    text-decoration: underline;
+	transition: color 0.3s;
 }
