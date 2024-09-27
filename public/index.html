@@ -1,98 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website UMKM</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar" id="navbar">
-            <div class="logo">
-                <img src="assets/webs.png" alt="Logo" width="50"> <!-- Ganti logo.png dengan URL logo Anda -->
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Service</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <!-- Landing Page -->
-    <section id="landing">
-        <div class="overlay"></div>
-        <div class="landing-content">
-            <img src="assets/webs.png" alt="Web's Ice Cream" class="landing-image"> <!-- Ganti dengan URL gambar Anda -->
-            <p>I might kms.</p>
-            <a href="#contact" class="cta-button">Get in Touch</a>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cherish:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="ellipse-parent">
+      <div class="frame-child"></div>
+      <div class="th-parent">
+        <div class="th">29th</div>
+        <b class="ice-cream-hero">Ice Cream</b>
+      </div>
+      <div class="since-1994">since 1994.</div>
+      <img
+        class="ice-cream-icon-back"
+        alt="ice-cream-background-1"
+        src="assets/images/ice-cream-background-1.png"
+      />
+
+      <div class="the-ice-cream">The Ice Cream</div>
+      <div class="rectangle-parent">
+        <div class="our-ice-cream">
+          Our ice cream is crafted from high-quality natural ingredients,
+          delivering a perfect blend of rich flavors and smooth texture. Whether
+          you're craving classic favorites like chocolate and vanilla or want to
+          explore unique flavors like matcha strawberry and salted caramel,
+          we’ve got something for everyone. Ideal for any occasion, our ice
+          cream brings a refreshing and indulgent treat to brighten your day.
+          Enjoy the taste of quality with every scoop!
         </div>
-    </section>
+      </div>
+      
+      <i class="experience-freshness-beyond">Experience Freshness Beyond Flavor</i>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We provide top-notch products and services to meet your requirements.</p>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer a wide range of services tailored to your needs.</p>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-            <img src="assets/gib1.png" alt="Gallery Image 1">
-            <img src="assets/gib2.png" alt="Gallery Image 2">
-            <img src="assets/gib3.png" alt="Gallery Image 3">
-            <img src="assets/gib4.png" alt="Gallery Image 4">
+      <div class="frame-item"></div>
+      <div class="rectangle-group">
+        <div class="group-item"></div>
+        <b class="know-us-more">Know Us More</b>
+      </div>
+      <div class="rectangle-container">
+        <b class="ready-to-try">Ready to Try?</b>
+      </div>
+      <div class="navbar">
+        <div class="navbar-child"></div>
+        <div class="home-parent">
+          <strong><a href="index.html" class="home">Home</a></strong>
+          <strong><a href="html/gallery.html" class="gallery">Gallery</a></strong>
+          <strong><a href="order.html" class="order-here">Order Here</a></strong>
         </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonial">
-            <p>"Great service and amazing products!" - Customer A</p>
+        <div class="th-group">
+          <div class="th">29th</div>
+          <b class="ice-cream">Ice Cream</b>
         </div>
-        <div class="testimonial">
-            <p>"Highly recommend this company!" - Customer B</p>
-        </div>
-    </section>
-
-    <!-- Call to Action Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Need a consultation? Our creative team is ready to discuss your branding needs.</p>
-        <a href="mailto:gandhiert149@gmail.com" class="cta-button">Schedule Now</a>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 UMKM Website. All Rights Reserved.</p>
-    </footer>
-
-    <script>
-        window.addEventListener('scroll', function() {
-            var navbar = document.getElementById('navbar');
-            var aboutSection = document.getElementById('about');
-            var aboutSectionTop = aboutSection.offsetTop;
-
-            if (window.scrollY >= aboutSectionTop) {
-                navbar.style.position = 'absolute';
-                navbar.style.top = aboutSectionTop + 'px';
-            } else {
-                navbar.style.position = 'fixed';
-                navbar.style.top = '20px';
-            }
-        });
-    </script>
-</body>
+      </div>
+    </div>
+  </body>
 </html>
