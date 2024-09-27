@@ -1,4 +1,4 @@
-.frame-child {
+.background-frame {
     position: relative;
     top: 1750px;
     left: 1300px;
@@ -9,39 +9,38 @@
     transform: rotate(-180deg);
     transform-origin: 0 0;
 }
-.th {
+.header-date {
     position: relative;
     line-height: 100%;
 }
 
-.ice-cream-hero {
-    position: relative; /* Pastikan posisi ditentukan */
+.header-title {
+    position: relative;
     line-height: 100%;
     font-family: var(--font-montserrat);
     color: var(--color-midnightblue);
     white-space: nowrap;
 }
 
-.th-parent {
-    display: flex; /* Menggunakan flexbox */
-    justify-content: center; /* Memusatkan secara horizontal */
-    align-items: center; /* Memusatkan secara vertikal */
-    gap: 30px; /* Jarak antar elemen */
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     font-size: 150px;
     font-family: var(--font-cherish);
-    position: absolute; /* Pastikan posisi ditentukan */
-    top: 242px; /* Sesuaikan dengan posisi yang diinginkan */
-    left: 50%; /* Memindahkan ke tengah */
-    transform: translateX(-50%); /* Memindahkan ke kiri setengah lebar elemen */
+    position: absolute;
+    top: 242px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.th-th {
-    /* Tambahkan gaya yang diinginkan di sini */
-    color: var(--color-midnightblue); /* Contoh: mengubah warna */
-    text-align: center; /* Menyelaraskan teks di tengah */
-    line-height: 1; /* Mengatur tinggi garis */
+.page-title {
+    color: var(--color-midnightblue);
+    text-align: center;
+    line-height: 1;
 }
-.ice-cream-icon-back {
+.background-image {
     position: absolute;
     top: 1000px;
     left: 850px;
@@ -49,7 +48,7 @@
     height: 598px;
     object-fit: cover;
 }
-.the-ice-cream {
+.page-title {
     position: absolute;
     top: 1552px;
     left: 50%;
@@ -58,10 +57,10 @@
     letter-spacing: 6px;
     line-height: 120%;
     font-family: var(--font-cherish);
-    width: 1042px; /* Sesuaikan dengan lebar konten */
+    width: 1042px;
 }
 
-.our-ice-cream {
+.ice-cream-description {
     position: absolute;
     top: 45px;
     line-height: 120%;
@@ -73,20 +72,20 @@
     border-radius: 48px;
     padding: 30px 50px;
 }
-.rectangle-parent {
+.description-container {
     position: absolute;
     top: 1673px;
     left: 50%;
     transform: translateX(-50%);
     width: 865px;
     height: 450px;
-    display: grid; /* Mengubah menjadi grid */
-    grid-template-columns: 1fr; /* Satu kolom */
-    grid-template-rows: auto; /* Baris otomatis */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     text-align: justify;
     color: var(--color-lightgoldenrodyellow);
 }
-.experience-freshness-beyond {
+.freshness-tagline {
     position: absolute;
     top: 955px;
     left: 200px;
@@ -99,7 +98,7 @@
     align-items: center;
     width: 788px;
 }
-.frame-item {
+.separator-line {
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -108,7 +107,7 @@
     height: 210px;
     z-index: 100;
 }
-.since-1994 {
+.since-date {
     position: absolute;
     top: 400px;
     font-size: 25px;
@@ -119,7 +118,7 @@
     justify-content: center;
     width: 532px;
 }
-.know-us-more {
+.more-info-button {
     cursor: pointer;
     position: absolute;
     display: flex;
@@ -128,12 +127,12 @@
     width: 300px;
     height: 70px;
     background-color: var(--color-midnightblue);
-    color: var(--color-darkolivegreen); /* Warna teks default */
+    color: var(--color-darkolivegreen);
     transition: background-color 0.3s;
     border-radius: 48px;
     top: -50px;
 }
-.rectangle-group {
+.button-section {
     position: absolute;
     top: 804.55px;
     left: 50%;
@@ -142,7 +141,7 @@
     height: 81.9px;
 }
 
-.ready-to-try {
+.try-now-button {
     cursor: pointer;
     position: absolute;
     top: 0px;
@@ -157,7 +156,7 @@
     border-radius: 48px;
     transition: color 0.3s;
 }
-.rectangle-container {
+.cta-section {
     position: absolute;
     top: 2180px;
     left: 175px;
@@ -165,7 +164,7 @@
     height: 51.6px;
     font-size: 20px;
 }
-.navbar-child {
+.navbar-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -173,21 +172,21 @@
     width: 100%;
     height: 70px;
 }
-.home {
+.home-link {
     cursor: pointer;
     position: relative;
     line-height: 120%;
     color: var(--color-lightgoldenrodyellow);
     transition: color 0.3s;
 }
-.gallery {
+.gallery-link {
     cursor: pointer;
     position: relative;
     line-height: 120%;
     transition: color 0.3s;
     color: var(--color-midnightblue);
 }
-.order-here{
+.order-link {
     cursor: pointer;
     position: relative;
     line-height: 120%;
@@ -195,14 +194,14 @@
     color: var(--color-midnightblue);
 }
 
-.ice-cream {
+.logo-title {
     position: relative;
     line-height: 100%;
     font-family: var(--font-montserrat);
     color: var(--color-midnightblue);
 }
 
-.home-parent {
+.navbar-links {
     position: absolute;
     top: 15px;
     right: 20px;
@@ -214,7 +213,7 @@
     justify-content: flex-end;
     gap: 50px;
 }
-.th-group {
+.logo-section {
     position: absolute;
     top: 23px;
     left: 20px;
@@ -238,7 +237,7 @@
     color: var(--color-midnightblue);
     z-index: 100;
 }
-.ellipse-parent {
+.main-container {
     width: 100%;
     position: relative;
     background-color: var(--color-lightgoldenrodyellow);
@@ -252,23 +251,23 @@
     flex-direction: column;
     align-items: center;
 }
-.home-parent a:hover {
+.navbar-links a:hover {
     color: var(--color-lightgoldenrodyellow);
     text-decoration: underline;
 }
 
-.rectangle-container:hover .group-inner {
+.cta-section:hover .group-inner {
     background-color: var(--color-darkolivegreen);
 }
-.rectangle-container:hover .ready-to-try {
+.cta-section:hover .try-now-button {
     color: var(--color-lightgoldenrodyellow);
 }
 
-.rectangle-group:hover .know-us-more {
+.button-section:hover .more-info-button {
     color: var(--color-lightgoldenrodyellow);
 }
 
-/* Tambahkan class baru untuk container */
+/* Class tambahan untuk header */
 .header-container {
     position: relative;
     width: 100%;
@@ -276,5 +275,5 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 242px; /* Sesuaikan dengan nilai top dari .th-parent */
+    padding-top: 242px; /* Sesuaikan dengan nilai top dari .header-section */
 }
