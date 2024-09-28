@@ -14,18 +14,12 @@ footer{
       display: flex;
       gap: 30px; 
       margin: 50px 0 50px 0;
-<<<<<<< HEAD
       font-weight: bold
-=======
->>>>>>> eb966377cbb78aaada94e991a75bb0ca6038e17b
     }
     .store-location p {
       margin: 0;
       width: 250px;
-<<<<<<< HEAD
       font-weight: 300;
-=======
->>>>>>> eb966377cbb78aaada94e991a75bb0ca6038e17b
     }
   
   .footer-right {
@@ -45,7 +39,6 @@ footer{
       width: 20px;
       height: 20px;
     }
-<<<<<<< HEAD
 .footlink {
   color: #172161;
   transition: color 0.3s;
@@ -63,6 +56,3 @@ footer{
 .footlink img:hover {
   transform: scale(1.2); 
 }
-=======
-    
->>>>>>> eb966377cbb78aaada94e991a75bb0ca6038e17b

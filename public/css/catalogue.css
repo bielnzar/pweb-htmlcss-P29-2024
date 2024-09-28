@@ -72,13 +72,8 @@
 .image-30-icon {
     position: absolute;
     top: 3468px;
-<<<<<<< HEAD
     left: 0;
     width: 100%;
-=======
-    left: calc(50% - 720px);
-    width: 1440px;
->>>>>>> eb966377cbb78aaada94e991a75bb0ca6038e17b
     height: 372px;
     object-fit: cover;
 }
@@ -101,7 +96,6 @@
     justify-content: center;
     width: 400px;
     height: 76.5px;
-<<<<<<< HEAD
     color: var(--color-darkolivegreen);
     transition: background-color 0.3s;
     border-radius: 48px;
@@ -109,8 +103,6 @@
 }
 .contact-us:hover{
     color: var(--color-lightgoldenrodyellow);
-=======
->>>>>>> eb966377cbb78aaada94e991a75bb0ca6038e17b
 }
 .rectangle-container {
     width: 400px;
