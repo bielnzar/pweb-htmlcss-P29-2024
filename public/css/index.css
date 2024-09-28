@@ -129,6 +129,7 @@
     transform: translateX(-50%);
     width: 319px;
     height: 81.9px;
+    top:500px;
 }
 
 .try-now-button {
@@ -147,8 +148,7 @@
 }
 .cta-section {
     position: absolute;
-    top: 2210px;
-    left: 50%;
+    top: 2250px;
     width: 270px;
     height: 51.6px;
     font-size: 20px;
