@@ -7,6 +7,7 @@
     font-size: 22.22px;
     color: var(--color-midnightblue);
     font-family: var(--font-montserrat);
+    z-index: 100;
 }
 
 .navbar-background {
