@@ -14,7 +14,6 @@ footer{
       display: flex;
       gap: 30px; 
       margin: 50px 0 50px 0;
-      font-weight: bold
     }
     .store-location p {
       margin: 0;

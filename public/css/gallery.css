@@ -11,78 +11,6 @@
 	letter-spacing: 0.1em;
 	line-height: 120%;
 }
-.frame-child {
-	position: absolute;
-	top: 320px;
-	left: 90px;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	object-fit: cover;
-}
-.frame-item {
-	position: absolute;
-	top: 320px;
-	left: 410px;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	object-fit: cover;
-}
-.frame-inner {
-	position: absolute;
-	top: 320px;
-	left: 730px;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	object-fit: cover;
-}
-.frame-icon {
-	position: absolute;
-	top: 320px;
-	left: 1050px;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	object-fit: cover;
-}
-.frame-child1 {
-	position: absolute;
-	top: 640px;
-	left: 90px;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	object-fit: cover;
-}
-.frame-child2 {
-	position: absolute;
-	top: 640px;
-	left: 410px;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	object-fit: cover;
-}
-.frame-child3 {
-	position: absolute;
-	top: 1280px;
-	left: 730px;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	object-fit: cover;
-}
-.frame-child4 {
-	position: absolute;
-	top: 1280px;
-	left: 1050px;
-	width: 300px;
-	height: 300px;
-	overflow: hidden;
-	object-fit: cover;
-}
 .group-child {
 	position: absolute;
 	top: 0px;
@@ -192,24 +120,6 @@
 	font-size: var(--font-size-6xl);
 	font-family: var(--font-montserrat);
 }
-.frame-child5 {
-	position: absolute;
-	top: 960px;
-	left: 90px;
-	width: 620px;
-	height: 620px;
-	overflow: hidden;
-	object-fit: cover;
-}
-.frame-child6 {
-	position: absolute;
-	top: 640px;
-	left: 730px;
-	width: 620px;
-	height: 620px;
-	overflow: hidden;
-	object-fit: cover;
-}
 .line1 {
 	position: absolute;
 	top: calc(55% - 107px);
@@ -226,13 +136,23 @@
 	width: 1160px;
 	height: 1px;
 }
-.gallery {
-	position: relative;
-	line-height: 120%;
-	color: var(--color-darkolivegreen);
-	align-items: center;
-	justify-content: center;
+
+.gallery{
+	position: absolute;
+    top: 300px;
+    left: calc(50% - 700px);
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    gap: 30px;
 }
+
 .testimonies-parent {
 	width: 100%;
 	position: relative;

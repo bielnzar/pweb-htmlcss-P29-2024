@@ -19,8 +19,44 @@
     align-content: center;
     padding: 30px 0px;
     box-sizing: border-box;
-    gap: 300px;
+    gap: 100px 300px;
 }
+.frame-item-container {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen dalam kolom */
+    align-items: center; /* Memusatkan gambar dan keterangan */
+    font-family: var(--font-cherish);
+    color: var(--color-darkolivegreen);
+}
+.caption {
+    margin-top: 10px; /* Jarak antara gambar dan keterangan */
+    font-size: 50px; /* Ukuran font untuk keterangan */
+    color: var(--color-darkolivegreen); /* Warna font untuk keterangan */
+    text-align: center; /* Memusatkan teks keterangan */
+    
+}
+.price-caption {
+    margin-top: 10px;
+}
+
+.price-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+.price-table th{
+    font-size: 20px;
+    color: #000080;
+    padding: 14px;
+}
+.price-table td {
+    font-size: 20px;
+    color: #000080;
+}
+
 .our-catalog {
     position: absolute;
     top: 145px;
