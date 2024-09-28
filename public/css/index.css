@@ -1,0 +1,194 @@
+.background-frame {
+    position: relative;
+    top: 1750px;
+    left: 1300px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #acfadf, #e8ffce 85.5%, #acfadf);
+    width: 1300px;
+    height: 1300px;
+    transform: rotate(-180deg);
+    transform-origin: 0 0;
+}
+.header-date {
+    position: relative;
+    line-height: 100%;
+}
+
+.header-title {
+    position: relative;
+    line-height: 100%;
+    font-family: var(--font-montserrat);
+    color: var(--color-midnightblue);
+    white-space: nowrap;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 150px;
+    font-family: var(--font-cherish);
+    position: absolute;
+    top: 242px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-title {
+    color: var(--color-midnightblue);
+    text-align: center;
+    line-height: 1;
+}
+.background-image {
+    position: absolute;
+    top: 1100px;
+    left: 850px;
+    width: 598px;
+    height: 598px;
+    object-fit: cover;
+}
+.page-title {
+    position: absolute;
+    top: 1710px;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 120px;
+    letter-spacing: 6px;
+    line-height: 120%;
+    font-family: var(--font-cherish);
+    width: 1042px;
+    color: var(--color-darkolivegreen);
+}
+.ice-cream-description {
+    position: absolute;
+    top: 45px;
+    line-height: 120%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 733px;
+    background-color: var(--color-darkolivegreen);
+    border-radius: 48px;
+    padding: 30px 50px;
+}
+.description-container {
+    position: absolute;
+    top: 1780px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 865px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: justify;
+    color: var(--color-lightgoldenrodyellow);
+}
+#freshness-tagline {
+    position: absolute;
+    top: 955px;
+    left: 200px;
+    font-size: 110px;
+    line-height: 120%;
+    display: flex;
+    font-weight: 600;
+    color: var(--color-midnightblue);
+    text-align: left;
+    align-items: center;
+    width: 788px;
+}
+.since-date {
+    position: absolute;
+    top: 400px;
+    font-size: 25px;
+    letter-spacing: 12.5px;
+    line-height: 120%;
+    color: var(--color-midnightblue);
+    align-items: center;
+    justify-content: center;
+    width: 532px;
+}
+.more-info-button {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 70px;
+    background-color: var(--color-midnightblue);
+    color: var(--color-darkolivegreen);
+    transition: background-color 0.3s;
+    border-radius: 48px;
+    top:70px;
+    font-weight: bold;
+}
+.button-section {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 319px;
+    height: 81.9px;
+    top:500px;
+}
+
+.try-now-button {
+    cursor: pointer;
+    position: absolute;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: var(--color-midnightblue);
+    border-radius: 48px;
+    transition: color 0.3s;
+    color: var(--color-darkolivegreen);
+}
+.cta-section {
+    position: absolute;
+    top: 2330px;
+    width: 270px;
+    height: 51.6px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-lightgoldenrodyellow);
+    height: 2500px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-darkolivegreen);
+    font-family: var(--font-montserrat);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-section:hover .group-inner {
+    background-color: var(--color-darkolivegreen);
+}
+.cta-section:hover .try-now-button {
+    color: var(--color-lightgoldenrodyellow);
+}
+
+.button-section:hover .more-info-button {
+    color: var(--color-lightgoldenrodyellow);
+}
+
+/* Class tambahan untuk header */
+.header-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 242px; /* Sesuaikan dengan nilai top dari .header-section */
+}
