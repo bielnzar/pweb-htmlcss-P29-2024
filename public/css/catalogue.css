@@ -23,31 +23,28 @@
 }
 .frame-item-container {
     display: flex;
-    flex-direction: column; /* Mengatur elemen dalam kolom */
-    align-items: center; /* Memusatkan gambar dan keterangan */
+    flex-direction: column;
+    align-items: center;
     font-family: var(--font-cherish);
     color: var(--color-darkolivegreen);
 }
 .caption {
-    margin-top: 10px; /* Jarak antara gambar dan keterangan */
-    font-size: 50px; /* Ukuran font untuk keterangan */
-    color: var(--color-darkolivegreen); /* Warna font untuk keterangan */
-    text-align: center; /* Memusatkan teks keterangan */
-    
+    margin-top: 10px;
+    font-size: 50px;
+    color: var(--color-darkolivegreen);
+    text-align: center;
 }
 .price-caption {
     margin-top: 10px;
 }
-
 .price-table {
     width: 100%;
     text-align: center;
     border-collapse: collapse;
-    font-family: cursive;
+    font-family: var(--font-montserrat);
     font-weight: lighter;
 }
-
-.price-table th{
+.price-table th {
     font-size: 20px;
     color: #000080;
     padding: 14px;
@@ -56,7 +53,6 @@
     font-size: 20px;
     color: #000080;
 }
-
 .our-catalog {
     position: absolute;
     top: 145px;
@@ -137,7 +133,7 @@
     border-radius: 48px;
     font-weight: bold;
 }
-.contact-us:hover{
+.contact-us:hover {
     color: var(--color-lightgoldenrodyellow);
 }
 .rectangle-container {
@@ -183,7 +179,7 @@
     width: 100%;
     position: relative;
     background-color: var(--color-lightgoldenrodyellow);
-    height: 4200px;
+    height: 4000px;
     overflow: hidden;
     text-align: center;
     font-size: 100px;

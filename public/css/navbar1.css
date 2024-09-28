@@ -21,21 +21,21 @@
 .home-link {
     cursor: pointer;
     position: relative;
-    line-height: 120%;
+    line-height: 100%;
     color: var(--color-lightgoldenrodyellow);
     transition: color 0.3s;
 }
 .gallery-link {
     cursor: pointer;
     position: relative;
-    line-height: 120%;
+    line-height: 100%;
     transition: color 0.3s;
     color: #172161;
 }
 .order-link {
     cursor: pointer;
     position: relative;
-    line-height: 120%;
+    line-height: 100%;
     transition: color 0.3s;
     color: #172161;
 }
