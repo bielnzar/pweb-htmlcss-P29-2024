@@ -81,3 +81,31 @@
     color: var(--color-lightgoldenrodyellow);
     font-family: var(--font-cherish);
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        font-size: 18px;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+        left: 0;
+        top: 70px;
+        padding: 10px;
+    }
+
+    .navbar-links a {
+        width: 100%;
+        text-align: left;
+    }
+
+    .logo-section {
+        top: 10px;
+        left: 10px;
+        width: auto;
+    }
+}

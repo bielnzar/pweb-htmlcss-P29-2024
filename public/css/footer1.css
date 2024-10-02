@@ -55,3 +55,27 @@ footer{
 .footlink img:hover {
   transform: scale(1.2); 
 }
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .store-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+}
